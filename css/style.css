@@ -9,7 +9,7 @@
 /* change these */
 :root {
     --bg-color: #635289;
-    --link-color: #635289;
+    --link-color: #528972;
     --link-hover-color: #ff6f61;
     --color-4: #ede4e0;
     --color-5: #dfdfdf;
@@ -128,9 +128,9 @@ ul li:last-child {
     background-color: var(--bg-color);
 }
 
-/*.color-swatch-2 {
+.color-swatch-2 {
   background-color: var(--link-color);
-}*/
+}
 
 .color-swatch-3 {
     background-color: var(--link-hover-color);
@@ -144,40 +144,40 @@ ul li:last-child {
     background-color: var(--color-5);
 }
 
-/*.textures li {
+.textures li {
     height: 30vw;
     width: 40%;
     margin-right: 5vw;
-}*/
 
-/* .texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+}
+
+ .texture-swatch-1 {
+    background: url(https://i.pinimg.com/originals/f4/b1/f7/f4b1f783ac066c62d1bf47c542fc9817.png) top left repeat;
+
 }
 
 .texture-swatch-2 {
-    background: url(../img/subtle_grunge.png) top left repeat;
-}
-
-.texture-swatch-1 {
-    background: url(../img/pw_maze_white.png) top left repeat;
+    background: url(https://i.pinimg.com/originals/c0/1f/e8/c01fe8726b1e865a863e835c3a135835.png) top left repeat;
 }
 
 .texture-swatch-3 {
-    background: url(../img/white_paperboard.png) top left repeat;
+    background: url(https://i.pinimg.com/originals/12/3f/5b/123f5bccbb50471beff778c8a3d660fa.png) top left repeat;
 }
 
-*/
+
 
 
 .images ul {
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 .images li {
     display: block;
-    /*margin-right: 5vw;*/
+    margin-right: 5vw;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 button {
@@ -221,7 +221,7 @@ button:focus-within {
 .h2-sample {
     font-family: var(--primary-font);
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 p.typography-sample {
@@ -241,7 +241,7 @@ em {
 a {
     font-family: var(--primary-font);
     color: var(--link-color);
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     transition: all 0.2s;
 }
